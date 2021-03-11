@@ -27,7 +27,13 @@
 </head>
 <body>
     <?php
-    $across = 5;    $down = 4;    $factors = 4;    $hiDigits = 4;    $loDigits = 4;    $sign = "+";
+    $across = $_POST["across"];
+    $down = $_POST["down"];
+    $factors = $_POST["factors"];
+    $hiDigits = $_POST["hiDigits"];
+    $loDigits = $_POST["loDigits"];
+    $sign = $_POST["sign"];
+    
 
     for ($p = 1; $p <= 10; $p++) {
         print "<div class='breakPage'><p>Math</p><table>";
