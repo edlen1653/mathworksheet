@@ -1,0 +1,25 @@
+td {
+    font-family: "arial";
+    font-style:normal;
+    font-size: 18pt;
+    text-align:right;
+    vertical-align: text-top;
+    width: 25%;
+
+}
+.bottom {
+   border:none ;
+   border-bottom: 1px solid ;
+}
+.signed {
+    padding-left: 35px;
+}
+
+.unsigned {
+    padding-left: 35px;
+}
+.breakPage {
+    page-break-after: always;
+    padding-top:25px;
+    padding-left: 25px;
+}

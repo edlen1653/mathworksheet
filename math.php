@@ -3,7 +3,8 @@
 <head>
     <style>
         td {
-            font-style: normal;
+            font-family: "arial";
+            font-style:normal;
             font-size: 18pt;
             text-align:right;
             vertical-align: text-top;
@@ -22,6 +23,8 @@
         }
         .breakPage {
             page-break-after: always;
+            padding-top:25px;
+            padding-left: 25px;
         }
     </style>
 </head>
